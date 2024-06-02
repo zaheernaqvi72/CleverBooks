@@ -1,0 +1,67 @@
+/* Updated ProblemTarget.css */
+
+/* Add or modify styles as needed */
+
+#problem-target {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#problem-target h2 {
+  font-size: 3em;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #333;
+}
+
+/* Tab Styles */
+.react-tabs {
+  width: 100%;
+}
+
+.react-tabs .react-tabs__tab-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.react-tabs .react-tabs__tab {
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px;
+  margin: 0 15px;
+  cursor: pointer;
+  font-size: 1.2em;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.react-tabs .react-tabs__tab--selected {
+  background-color: #0056b3;
+}
+
+.tab-content {
+  display: grid;
+  gap: 30px;
+}
+
+.tab-content .react-tabs__tab-panel {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.tab-icon {
+  margin-right: 10px;
+  font-size: 1.5em;
+}
